@@ -84,18 +84,18 @@ body{
 			padding-top: 20vh;
 		}
 
-			.button{
-				text-decoration: none;
-				color: #4D535F;
-				background-color: #EFEFEF;
-				border: 1px solid #959595;
-				padding: 5px 5px;
-				border-radius: 4px;
-				font-size: 1em;
-				vertical-align: middle;
-				text-align: center;
-				font-family: 'Lato', sans-serif;
-			}
+		.button{
+			text-decoration: none;
+			color: #4D535F;
+			background-color: #EFEFEF;
+			border: 1px solid #959595;
+			padding: 5px 5px;
+			border-radius: 4px;
+			font-size: 1em;
+			vertical-align: middle;
+			text-align: center;
+			font-family: 'Lato', sans-serif;
+		}
 
 		.resume{
 			top: 5vh;
@@ -122,31 +122,25 @@ body{
 				margin: 4vh;
 				padding: 4vh;
 
-				.progress{
-					background-color: #26CB63;
-					color: #26CB63;
-				}
 
 				.push-right{
 					text-align: right;
 				}
 			}
-
-
 		}
-		
 	}
-
 
 	#portfolio{
 		width: 100%;
-		min-height: 80vh;
+		min-height: 100vh;
 		background-color: #EFEFEF;
 
 		h1{
 			color: #4D535F;
 			text-align: center;
 			font-family: 'Lato', sans-serif;
+			padding-top: 5vh;
+			padding-bottom: 5vh;
 		}
 
 		.big-project:hover{
@@ -199,23 +193,23 @@ body{
 			margin-bottom: 4vh;
 			position: relative;
 		}
-			.button{
-		margin-left: 45vw;
-				text-decoration: none;
-				color: #4D535F;
-				background-color: #EFEFEF;
-				border: 1px solid #959595;
-				padding: 10px 15px;
-				border-radius: 4px;
-				font-size: 1.5em;
-				vertical-align: middle;
-			}
+		.button{
+			margin-left: 45vw;
+			text-decoration: none;
+			color: #4D535F;
+			background-color: #EFEFEF;
+			border: 1px solid #959595;
+			padding: 10px 15px;
+			border-radius: 4px;
+			font-size: 1.5em;
+			vertical-align: middle;
+		}
 	}
 
 	#work-experience{
 		width: 100%;
 		height: 140vh;
-		background-color: yellow;
+		background-color: #EFEFEF;
 
 		h1{
 			color: #4D535F;
@@ -449,15 +443,15 @@ body{
 			}
 
 			.field{
-			  font-family: 'Lato', sans-serif;	
-			  color: #959595;
-			  padding-bottom: 5vh;
+				font-family: 'Lato', sans-serif;	
+				color: #959595;
+				padding-bottom: 5vh;
 			}
 
 			.info{
 				font-family: 'Lato', sans-serif;	
-			  color: #4D535F;
-			  padding-bottom: 5vh;
+				color: #4D535F;
+				padding-bottom: 5vh;
 			}
 
 			.right-block{
@@ -469,12 +463,31 @@ body{
 				width: 100%;
 			}
 		}
-			.icons{
-				text-align: center;
-				i{
-					color: #4D535F;
-					padding: 4vh;
-				}
+		.icons{
+			text-align: center;
+
+			i{
+				color: #4D535F;
+				padding: 4vh;
 			}
+		}
+
+		.iconss{
+			top: -57vh;
+		}
+
+		.one{
+			top: -20vh;
+		}
+
+		.two{
+			top: -58vh;
+		}
+	}
+
+	#foot{
+		width: 100%;
+		height: 40vh;
+		background-color: #EFEFEF;
 	}
 }
