@@ -253,11 +253,13 @@ body{
 
 	#work-experience{
 		width: 100%;
-		height: 140vh;
+		min-height: 140vh;
 		background-color: #EFEFEF;
 
 		h1{
 			color: #4D535F;
+			padding-top: 10vh;
+			padding-bottom: 10vh;
 			text-align: center;
 			font-family: 'Lato', sans-serif;
 		}
@@ -302,31 +304,31 @@ body{
 
 			}
 
-			.macroosoft{
-				top: -35vh;
-			}
+			// .macroosoft{
+			// 	top: -35vh;
+			// }
 
-			.joojle{
-				top: -35vh;
-			}
+			// .joojle{
+			// 	top: -35vh;
+			// }
 
-			.ibbbm{
-				top: -67vh;
-			}
+			// .ibbbm{
+			// 	top: -67vh;
+			// }
 
-			.headbook{
-				top: -65vh;
-			}
+			// .headbook{
+			// 	top: -65vh;
+			// }
 
-			.ubear{
-				top: -103vh;
-			}
+			// .ubear{
+			// 	top: -103vh;
+			// }
 		}
 
 
 		.timeline:before {
 			top: 10vh;
-			bottom: 140vh;
+			bottom: 37vh;
 			position: absolute;
 			content: " ";
 			width: 3px;
