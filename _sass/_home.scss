@@ -10,11 +10,11 @@
 		margin-top: 2vh;
 
 		.logo{
-		font-size: 20px;	
-		text-decoration: none;
-		font-weight: bold;	
-		font-family: 'Lato', sans-serif;
-	}
+			font-size: 20px;	
+			text-decoration: none;
+			font-weight: bold;	
+			font-family: 'Lato', sans-serif;
+		}
 		a{
 			color: #EFEFEF;
 			padding-right: 2vh;
@@ -34,6 +34,7 @@ body{
 		background-color: #4D535F;
 		background-size: cover;
 		min-height : 50vh;
+		width: 100%;
 
 		.box{
 			position: relative;
@@ -101,6 +102,7 @@ body{
 		background-color: #EFEFEF;
 		background-size: cover;
 		min-height : 50vh;
+		width: 100%;
 
 		.full-resume{
 			padding-top: 20vh;
@@ -117,8 +119,12 @@ body{
 			vertical-align: middle;
 			text-align: center;
 			font-family: 'Lato', sans-serif;
+			opacity: 0.8;
 		}
-
+.button:hover{
+	opacity: 1;
+			transition: all 0.2s linear;
+}
 		.resume{
 			top: 5vh;
 			text-align: center;
@@ -132,6 +138,12 @@ body{
 		width: 100%;
 		min-height: 50vh;
 		background-color: #EFEFEF;
+
+		p{
+			font-family: 'Lato', sans-serif;
+			font-size: 13px;	
+			color: #959595;
+		}
 		h1{
 			color: #4D535F;
 			text-align: center;
@@ -145,9 +157,19 @@ body{
 				margin: 4vh;
 				padding: 4vh;
 
-
-				.push-right{
-					text-align: right;
+				.single-skill{
+					margin-bottom: 5vh;
+				}
+				progress::-webkit-progress-value {
+					border-radius: 50px;
+					background: #26CB63;
+				}
+				progress::-webkit-progress-bar {
+					background: #CFF4E3;
+					width: 300px;
+					height: 1vh;
+					border-radius: 50px;
+					border-radius: 50px;
 				}
 			}
 		}
