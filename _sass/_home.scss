@@ -1,10 +1,32 @@
-header{
+.header{
 	background-color: #4D535F;
-
+	min-height: 7vh;
+	
 	span{
-		color:#000000;
-		text-decoration:none;
+		color: #26CB63;
 	}
+	.background{
+		text-decoration: none;
+		margin-top: 2vh;
+
+		.logo{
+		font-size: 20px;	
+		text-decoration: none;
+		font-weight: bold;	
+		font-family: 'Lato', sans-serif;
+	}
+		a{
+			color: #EFEFEF;
+			padding-right: 2vh;
+			font-size: 12px;
+			font-family: 'Lato', sans-serif;
+
+		}
+		a:hover{
+			text-decoration: none;	
+		}
+	}
+
 }
 
 body{
@@ -106,6 +128,7 @@ body{
 	}
 
 	#skills{
+		padding-top: 5vh;
 		width: 100%;
 		min-height: 50vh;
 		background-color: #EFEFEF;
@@ -454,40 +477,22 @@ body{
 				padding-bottom: 5vh;
 			}
 
-			.right-block{
-				padding-top: 4vh;
-				height: 30vh;
-			}
-			img{
-				height: 25vh;
-				width: 100%;
-			}
+			
 		}
-		.icons{
-			text-align: center;
-
-			i{
-				color: #4D535F;
-				padding: 4vh;
-			}
+		img{
+			height: 25vh;
+			width: 100%;
 		}
+	}
+	.icons{
+		text-align: center;
 
-		.iconss{
-			top: -57vh;
-		}
-
-		.one{
-			top: -20vh;
-		}
-
-		.two{
-			top: -58vh;
+		i{
+			color: #4D535F;
+			padding: 4vh;
 		}
 	}
 
-	#foot{
-		width: 100%;
-		height: 50vh;
-		background-color: #EFEFEF;
-	}
+
+
 }
